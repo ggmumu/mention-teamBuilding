@@ -52,7 +52,7 @@ express()
     // teamList 출력
     web.chat.postMessage({
       channel: event.channel,
-      text: `오늘의 팀 :pk_chicken:\n${teamList} 치킨 :_bv_gazaaa:`
+      text: `오늘의 팀 :pk_chicken:\n${teamList} :chickendinner: 치킨 가즈아 :chickendinner:`
     }).then(result => {
       console.log('Message sent: ' + result.ts)
     });
